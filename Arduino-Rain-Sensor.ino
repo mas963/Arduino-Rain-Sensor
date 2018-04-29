@@ -10,7 +10,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   bool okunan = digitalRead(sensor);
   if(okunan == false){
     Serial.println("yağmur var");
