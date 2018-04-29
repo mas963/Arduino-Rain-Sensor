@@ -2,7 +2,6 @@
 LiquidCrystal lcd(7,6,5,4,3,2);
 int sensor = 8;
 void setup() {
-  // put your setup code here, to run once:
   pinMode(sensor,INPUT);
   pinMode(9,OUTPUT);
   pinMode(10,OUTPUT);
